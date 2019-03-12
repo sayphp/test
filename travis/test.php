@@ -1,18 +1,15 @@
 <?php
-//*²âÊÔtravis-ciµÄphp½Å±¾
-class Say
-{
-	public static $param = [];
-	public static $data = [];
+/***************************************************************************
+ *
+ * Copyright (c) 2018 Zuoyebang, Inc. All Rights Reserved
+ *
+ **************************************************************************/
 
-	public static function get($key){
-		return self::$para[$key];
-	}
 
-	public static function error($errNo=999, $errMsg=''){
-		exit($errNo.':'.$errMsg);
-	}
-}
-$a = Say::get('a');
-$e = Say::error(1, '¿ò¼Ü´íÎó');
-$e = Say::fail(0);
+/**
+ * @file   test.php
+ * @author åˆ˜æ½‡(liuxiao@zuoyebang.com)
+ * @date   2019/3/12
+ * @brief  æµ‹è¯•travis
+ **/
+echo 'hello';
