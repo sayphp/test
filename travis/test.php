@@ -13,3 +13,4 @@
  * @brief  测试travis
  **/
 echo 'hello';
+$say = new say();
