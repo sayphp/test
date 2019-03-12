@@ -15,3 +15,4 @@ class Say
 }
 $a = Say::get('a');
 $e = Say::error(1, '¿ò¼Ü´íÎó');
+$e = Say::fail(0);
