@@ -1,0 +1,7 @@
+changequote([,])dnl
+define([g1_STRING_MODULE_INDICATOR],
+		[
+			dnl comment
+			GNULIB_]translit([[$1]], [a-z], [A-z])[=1 dnl
+			])dnl
+g1_STRING_MODULE_INDICATOR([strcase])
